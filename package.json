@@ -1,0 +1,33 @@
+{
+  "name": "react-big-calendar-drag-and-drop-events-between-months",
+  "version": "1.0.0",
+  "description": "This example illustrates that react-big-calendar doesn't allow events to be dragged from one month to another. Today, you can only drag and drop onto a day that's already visible. We should add a way to trigger a drag from the current month to another month by implementing a hot zone to trigger a next or previous month transition.",
+  "keywords": [],
+  "main": "src/index.js",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "bootstrap": "^4.6.0",
+    "moment": "2.22.2",
+    "react": "^17.0.1",
+    "react-big-calendar": "0.19.2",
+    "react-day-picker": "^7.4.8",
+    "react-dnd": "2.6.0",
+    "react-dnd-html5-backend": "5.0.1",
+    "react-dom": "^16.14.0",
+    "react-redux": "^7.2.2",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "1.1.4",
+    "reactstrap": "^8.9.0",
+    "redux": "^4.0.5",
+    "redux-thunk": "^2.3.0",
+    "semantic-ui-css": "^2.4.1",
+    "semantic-ui-react": "^2.0.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
+}
